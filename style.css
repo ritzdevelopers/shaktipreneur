@@ -21,6 +21,14 @@ a {
   cursor: pointer;
 }
 
+.vrtIcon a {
+  background-image: linear-gradient(to right, #4d6328, #9cc951);
+  cursor: pointer;
+}
+.btmDivBtns button {
+  font-family:Arial, Helvetica, sans-serif;
+}
+
 
 
 
