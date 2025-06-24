@@ -83,3 +83,63 @@ document.getElementById("form").addEventListener("submit", function (e) {
       alert("Error submitting form.");
     });
 });
+
+
+
+
+function section3CardAnimations() {
+ document.querySelectorAll(".s3CardT").forEach((card) => {
+  const bg = card.querySelector(".bgColors3Card");
+  // const img = card.querySelector(".s3CardImg");
+  // const title = card.querySelector(".s3CardTitle");
+  const arrow = card.querySelector(".arrDv1");
+
+  card.addEventListener("mouseenter", () => {
+    gsap.to(bg, {
+      y: "100%",
+      x: "-100%",
+      opacity: 1,
+      scale: 1,
+      borderLeftRadius: "10%",
+      duration: 0.5,
+    });
+    // gsap.to(img, {
+    //   scale: "3%",
+    // });
+    // // gsap.to(title, {
+    // //   y: "100%",
+    // //   color: "black",
+    // });
+    gsap.to(arrow, {
+      x: "-140%",
+      y: "50%",
+      ease: "power2",
+      scale: 1,
+    });
+  });
+
+  card.addEventListener("mouseleave", () => {
+    gsap.to(bg, {
+      y: "-100%",
+      x: "100%",
+      opacity: 0,
+      scale: 0,
+      borderLeftRadius: "10%",
+      duration: 0.8,
+    });
+    // gsap.to(img, {
+    //   scale: "-3%",
+    // });
+    // gsap.to(title, {
+    //   y: "-10%",
+    //   color: "black",
+    // });
+    gsap.to(arrow, {
+      x: "100%",
+      y: "-50%",
+      scale: 0,
+    });
+  });
+});
+}
+section3CardAnimations();
