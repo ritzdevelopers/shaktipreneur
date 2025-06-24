@@ -1,0 +1,22 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+button,
+strong,
+.p-playfair {
+  font-family: 'Playfair Display', serif;
+}
+
+p,
+a {
+  font-family: 'Inter', sans-serif;
+}
+
+
+/* HEADER */
+.header-btn {
+  background-image: linear-gradient(to right, #4d6328, #9cc951);
+  cursor: pointer;
+}
