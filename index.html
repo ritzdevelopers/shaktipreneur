@@ -114,8 +114,11 @@
     </header>
 
     <!-- HERO SECTION -->
-    <section class="relative w-screen overflow-x-hidden sm:h-screen mt-10 sm:mt-22" id="hero">
-      <div class="h-full w-full flex flex-col-reverse md:flex-row ">
+    <section
+      class="relative w-screen overflow-x-hidden sm:h-screen mt-10 sm:mt-22"
+      id="hero"
+    >
+      <div class="h-full w-full flex flex-col-reverse md:flex-row">
         <!-- Left Content -->
         <div
           class="w-full md:w-1/2 relative flex flex-col px-4 sm:px-6 md:pl-8 lg:pl-[90px] py-10 space-y-4 md:space-y-5 overflow-hidden"
@@ -242,14 +245,16 @@
       </div>
 
       <div
-        class="w-[100%] sm:w-screen md:w-[100%] lg:w-[100%] xl:h-[100vh] m-auto flex flex-col items-center "
+        class="w-[100%] sm:w-screen md:w-[100%] lg:w-[100%] xl:h-[100vh] m-auto flex flex-col items-center"
       >
-      <div class="h-[75%] w-[90%]"> <img
-          src="./assets/update/community2.png"
-          alt="Community Image"
-          class="h-full w-full sm:w-full object-contain"
-        /></div>
-       
+        <div class="h-[75%] w-[90%]">
+          <img
+            src="./assets/update/community2.png"
+            alt="Community Image"
+            class="h-full w-full sm:w-full object-contain"
+          />
+        </div>
+
         <div class="h-[25%] w-full xl:w-[65%] relative">
           <img
             src="./assets/update/register_now.png"
@@ -435,28 +440,53 @@
         </p>
 
         <!-- Border Line Paragraphs -->
-        <div
-          class="text-center justify-center gap-4 sm:gap-8 text-gray-600 text-base sm:text-lg"
-        >
-          <p
-            class="italic text-white sm:text-[36px] text-[24px] p-playfair"
-            style="
-              text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
-                1px 1px 0 #000;
-            "
-          >
-            Because great communities don't happen by chance.
-          </p>
-          <p
-            class="italic text-white sm:text-[36px] text-[24px] p-playfair"
-            style="
-              text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
-                1px 1px 0 #000;
-            "
-          >
-            They happen because someone cares - and acts.
-          </p>
-        </div>
+       <div class="flex overflow-hidden text-gray-600 text-base sm:text-lg">
+  <!-- Marquee wrapper -->
+  <div class="flex animate-marquee space-x-10 min-w-full">
+    <div class="flex items-center space-x-4 sm:space-x-8 min-w-full">
+      <p class="text-white italic whitespace-nowrap text-[24px] sm:text-[36px] p-playfair" style="text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">
+        Because great communities don't happen by chance.
+      </p>
+      <p class="text-white italic whitespace-nowrap text-[24px] sm:text-[36px] p-playfair" style="text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">
+        They happen because someone cares - and acts.
+      </p>
+
+        <p class="text-white italic whitespace-nowrap text-[24px] sm:text-[36px] p-playfair" style="text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">
+        Because great communities don't happen by chance.
+      </p>
+      <p class="text-white italic whitespace-nowrap text-[24px] sm:text-[36px] p-playfair" style="text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">
+        They happen because someone cares - and acts.
+      </p>
+
+
+        <p class="text-white italic whitespace-nowrap text-[24px] sm:text-[36px] p-playfair" style="text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">
+        Because great communities don't happen by chance.
+      </p>
+      <p class="text-white italic whitespace-nowrap text-[24px] sm:text-[36px] p-playfair" style="text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">
+        They happen because someone cares - and acts.
+      </p>
+
+
+        <p class="text-white italic whitespace-nowrap text-[24px] sm:text-[36px] p-playfair" style="text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">
+        Because great communities don't happen by chance.
+      </p>
+      <p class="text-white italic whitespace-nowrap text-[24px] sm:text-[36px] p-playfair" style="text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">
+        They happen because someone cares - and acts.
+      </p>
+    </div>
+
+    <!-- Repeat for smooth infinite scroll -->
+    <!-- <div class="flex items-center space-x-4 sm:space-x-8 min-w-full">
+      <p class="text-white italic whitespace-nowrap text-[24px] sm:text-[36px] p-playfair" style="text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">
+        Because great communities don't happen by chance.
+      </p>
+      <p class="text-white italic whitespace-nowrap text-[24px] sm:text-[36px] p-playfair" style="text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">
+        They happen because someone cares - and acts.
+      </p>
+    </div> -->
+  </div>
+</div>
+
       </div>
 
       <!-- Bottom Split Section -->
@@ -500,16 +530,14 @@
       class="bg-cover bg-center w-screen relative h-[80vh] sm:h-[75vh] lg:h-[70vh] xl:h-screen overflow-hidden"
       style="background-image: url('./assets/community-bg.png')"
     >
-      <div
-        class="flex h-full w-full flex-col lg:flex-row   gap-8  sm:w-full"
-      >
+      <div class="flex h-full w-full flex-col lg:flex-row gap-8 sm:w-full">
         <!-- left Content -->
         <div
-          class="w-full  md:w-[80%] sm:p-8 md:p-12 flex flex-col justify-between "
+          class="w-full md:w-[80%] sm:p-8 md:p-12 flex flex-col justify-between"
         >
           <!-- Top content -->
-          <div class="w-[100%] h-[100%] lg:p-10">
-            <div class="w-full flex flex-col  lg:gap-4">
+          <div class="w-[100%] h-[100%] p-6 lg:p-10">
+            <div class="w-full flex flex-col lg:gap-4">
               <h1 class="text-3xl md:text-[56px] font-bold">How to Join</h1>
               <p class="md:text-[24px] text-md text-[#666666]">
                 Becoming A Shaktipreneur is simple
@@ -544,7 +572,7 @@
             </button>
           </div>
         </div>
-        
+
         <!-- Right Image -->
         <div class="w-[50%] md:w-1/2 absolute right-0 -bottom-4">
           <img
@@ -703,8 +731,10 @@
             ></div>
           </div>
         </div> -->
-        <div class="w-[100%] flex flex-col gap-4 md:gap-0 md:flex-row items-center md:justify-between mt-4">
-          <div class="leftD w-full md:w-[49%] h-[110%]  flex flex-col gap-2">
+        <div
+          class="w-[100%] flex flex-col gap-4 md:gap-0 md:flex-row items-center md:justify-between mt-4"
+        >
+          <div class="leftD w-full md:w-[49%] h-[110%] flex flex-col gap-2">
             <div class="bgImg bg-blue-400 w-full h-[60%]">
               <img
                 src="./assets//gallery/627X628.jpg"

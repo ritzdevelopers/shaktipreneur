@@ -48,9 +48,28 @@ a {
   cursor: pointer;
 }
  */
+/* .txtMrqu{
+  animation: marqueeTxt 10s linear infinite;
+}
 
+@keyframes marqueeTxt {
+0% {
+  transform: translateX(0%);
+}
+100% {
+transform: translateX(-100%);
+}
 
-
-/* h1{
-  background: #0000004b;
 } */
+ @keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 15s linear infinite;
+}
