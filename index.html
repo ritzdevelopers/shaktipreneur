@@ -256,7 +256,7 @@
             class="h-full w-full object-cover"
           />
           <button
-            class="px-3 py-1 text-sm hover:bg-gray-300 md:text-md md:block md:px-8 md:right-12 lg:right-26 lg:top-22 lg:px-18 lg:py-3 lg:font-bold sm:px-6 sm:right-14 sm:top-16 md:top-16 cursor-pointer transition hover:duration-200 rounded-md bg-white text-black absolute top-8 right-6 font-sm"
+            class="px-3 py-1 text-sm hover:bg-gray-200 md:text-md md:block md:px-8 md:right-12 lg:right-22 lg:top-20 lg:px-18 lg:py-3 lg:font-bold lg:text-xl sm:px-6 sm:right-14 sm:top-16 md:top-16 cursor-pointer transition hover:duration-200 rounded-md bg-white text-black absolute top-8 right-6"
           >
             Register Today
           </button>
@@ -474,13 +474,21 @@
         </div>
 
         <!-- Right: Key Points -->
-        <ul class="list-disc text-gray-800 text-base sm:text-lg flex flex-col gap-4">
-          <li class="font-semibold" > Keeping the society clean, safe, and visually welcoming</li>
+        <ul
+          class="list-disc text-gray-800 text-base sm:text-lg flex flex-col gap-4"
+        >
           <li class="font-semibold">
-              Facilitating quick resolution of maintenance and facility issues
+            Keeping the society clean, safe, and visually welcoming
           </li>
-          <li class="font-semibold" > Making guests and prospective residents feel at home</li>
-          <li class="font-semibold" > Creating a sense of togetherness among fellow residents</li>
+          <li class="font-semibold">
+            Facilitating quick resolution of maintenance and facility issues
+          </li>
+          <li class="font-semibold">
+            Making guests and prospective residents feel at home
+          </li>
+          <li class="font-semibold">
+            Creating a sense of togetherness among fellow residents
+          </li>
         </ul>
       </div>
     </section>
@@ -545,7 +553,7 @@
           </div>
         </div>
         <!-- Right Image -->
-        <div class="w-[50%] md:w-1/2 absolute right-0 bottom-0">
+        <div class="w-[50%] md:w-1/2 absolute right-0 -bottom-4">
           <img
             src="./assets/how-to-join.png"
             alt="how-to-join"
@@ -574,7 +582,7 @@
         </div>
 
         <!-- Gallery Grid -->
-        <div class="mt-12 grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-6">
+        <!-- <div class="mt-12 grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-6">
           <div
             class="sm:col-span-2 sm:row-span-2 w-full h-full relative cursor-pointer s3CardT overflow-hidden"
           >
@@ -700,6 +708,76 @@
             <div
               class="absoluteOverLay bgColors3Card h-full w-full bg-[#0000004b] absolute top-[-100%] right-[-100%]"
             ></div>
+          </div>
+        </div> -->
+        <div class="w-[100%] flex flex-col gap-4 md:gap-0 md:flex-row items-center md:justify-between mt-4">
+          <div class="leftD w-full md:w-[49%] h-[110%]  flex flex-col gap-2">
+            <div class="bgImg bg-blue-400 w-full h-[60%]">
+              <img
+                src="./assets//gallery/627X628.jpg"
+                class="h-full w-full"
+                alt=""
+              />
+            </div>
+
+            <div class="smImgs w-full h-[40%] flex gap-2">
+              <div class="w-1/2 h-full">
+                <img
+                  src="./assets/gallery/294x286_1.jpg"
+                  alt=""
+                  class="w-full h-full object-cover"
+                />
+              </div>
+              <div class="w-1/2 h-full">
+                <img
+                  src="./assets/gallery/294x286_2.jpg"
+                  alt=""
+                  class="w-full h-full object-cover"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="rightD w-full md:w-[49%] h-[110%] flex flex-col gap-2">
+            <div class="smImgs gap-2 w-full h-[30%] flex">
+              <div class="w-1/2 h-full">
+                <img
+                  src="./assets/gallery/294x286_3.jpg"
+                  alt=""
+                  class="w-full h-full object-cover"
+                />
+              </div>
+              <div class="w-1/2 h-full">
+                <img
+                  src="./assets/gallery/294x286_4.jpg"
+                  alt=""
+                  class="w-full h-full object-cover"
+                />
+              </div>
+            </div>
+            <div class="mdBgImg w-full h-[40%]">
+              <img
+                src="./assets/gallery/613x324.jpg"
+                alt=""
+                class="w-full h-full object-cover"
+              />
+            </div>
+            <div class="smImgs gap-2 w-full h-[30%] flex">
+              <div class="w-1/2 h-full">
+                <img
+                  alt=""
+                  src="./assets/gallery/294x286_5.jpg"
+                  class="w-full h-full object-cover"
+                />
+              </div>
+              <div class="w-1/2 h-full">
+                <img
+                  alt=""
+                  src="./assets/gallery/294x286_6.jpg"
+                  class="w-full h-full object-cover"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -921,17 +999,17 @@
           class="btmDivBtns space-y-6 mb-10 max-w-xl mx-auto flex flex-col justify-center items-center"
         >
           <button
-            class="text-md ftrBtm font-semiibold cursor-pointer transition hover:bg-gray-300 hover:rounded-md hover:duration-200 py-2 bg-[#F1F1F1] px-16 capitalize"
+            class="text-md ftrBtm font-semiibold cursor-pointer transition hover:bg-gray-300 hover:shadow-xl transition duration-200 rounded-md hover:duration-200 py-2 bg-[#F1F1F1] px-16 capitalize"
           >
             Join The Movement
           </button>
           <button
-            class="text-md ftrBtm font-semiibold cursor-pointer transition hover:bg-gray-300 hover:rounded-md hover:duration-200 py-2 bg-[#F1F1F1] px-8 capitalize"
+            class="text-md ftrBtm font-semiibold cursor-pointer transition hover:bg-gray-300 hover:shadow-xl transition duration-200 rounded-md hover:duration-200 py-2 bg-[#F1F1F1] px-8 capitalize"
           >
             learn from where you live
           </button>
           <button
-            class="text-md ftrBtm font-semiibold cursor-pointer transition hover:bg-gray-300 hover:rounded-md hover:duration-200 py-2 bg-[#F1F1F1] px-11 capitalize"
+            class="text-md ftrBtm font-semiibold cursor-pointer transition hover:bg-gray-300 hover:shadow-xl transition duration-200 rounded-md hover:duration-200 py-2 bg-[#F1F1F1] px-11 capitalize"
           >
             become a shaktipreneur
           </button>
