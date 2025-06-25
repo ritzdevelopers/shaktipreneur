@@ -31,22 +31,22 @@ let lastScrollY = window.scrollY;
 // Scroll background white on header
 window.addEventListener("scroll", (e) => {
   // console.log(window.scrollY);
-  const currentScrollY = window.scrollY;
-  if (currentScrollY > 10) {
-    header.classList.add("bg-white", "shadow-md");
-    header.classList.remove("bg-transparent");
-    header.style.borderWidth = "0px";
-    header.style.borderBottomColor = "#FFFF";
-    console.log('scroll down');
+  // const currentScrollY = window.scrollY;
+  // if (currentScrollY > 10) {
+  //   header.classList.add("bg-white", "shadow-md");
+  //   header.classList.remove("bg-transparent");
+  //   header.style.borderWidth = "0px";
+  //   header.style.borderBottomColor = "#FFFF";
+  //   console.log('scroll down');
     
-  } else if(currentScrollY < lastScrollY){
-    header.classList.remove("bg-white", "shadow-md");
-    header.classList.add("bg-transparent");
-    header.style.borderBottomWidth = "2px";
-    header.style.borderBottomColor = "#a8a8a8";
-    console.log('scroll up');
+  // } else if(currentScrollY < lastScrollY){
+  //   header.classList.remove("bg-white", "shadow-md");
+  //   header.classList.add("bg-transparent");
+  //   header.style.borderBottomWidth = "2px";
+  //   header.style.borderBottomColor = "#a8a8a8";
+  //   console.log('scroll up');
     
-  }
+  // }
 });
 
 // FORM
