@@ -73,3 +73,9 @@ transform: translateX(-100%);
 .animate-marquee {
   animation: marquee 15s linear infinite;
 }
+
+@media (max-width: 375px) {
+  .s5Tp{
+   height: 80vh;
+  }
+}
